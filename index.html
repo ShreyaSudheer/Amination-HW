@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Animation HW</title>
+        <style>
+            .animation_display{
+                width: 100px;
+                height: 100px;
+                position: relative;
+                background-color: red;
+                animation-name: amination_display;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;  
+            }
+            @keyframes amination_display {
+      0%   {background-color: red; left:0px; top:0px;}
+      15%  {background-color: blue; left:0px; top:200px;}
+      25%  {background-color: green; left:200px; top:200px;}
+      35%  {background-color: yellow; left:200px; top:0px;}
+      45% {background-color: green; left:250px; top:0px;}
+      55% {background-color: whitesmoke; left:300px; top: 200px;}
+      65% {background-color: black; left:45px; top:500px;}
+      75% {background-color: grey; left: 500px; top:0px;}
+      85% {background-color: blue; left:500px; top:500px;}
+    }
+        </style>
+    </head>
+<body>
+    <div class="animation_display"></div>
+</body>
+</html>
